@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Cohort 33 Ipsum</title>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="content-container">
+      <div class="image-container">
+        <img src="./images/Juno-College--300x300.jpg">
+      </div>
+      
+      <h1>Cohort 33 Ipsum</h1>
+      
+      <h3>Words needed: </h3>
+      <form id="words-request">
+        <input type="number" name="words-needed" id="words-needed" placeholder="5" min="5">
+        <button type="submit">Get Ipsum</button>
+      </form>
+      
+      <section id="ipsum-container" class="ipsum-container">
+      </section>
+    </section>
+  </div>
+
+  <script src='https://code.jquery.com/jquery-3.5.1.min.js' crossorigin='anonymous'></script>
+  <script src="./scripts/one-word-options.js"></script>
+  <script src="./scripts/two-word-options.js"></script>
+  <script src="./scripts/three-word-options.js"></script>
+  <script src="./scripts/four-word-options.js"></script>
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
