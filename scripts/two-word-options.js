@@ -9,5 +9,14 @@ const twoWordOptions = [
   "body horror",
   "raw vegetables",
   "cooked vegetables",
-  "mr. mister"
+  "mr. mister",
+  "grilled cheese",
+  "diagonally cut",
+  "square cut",
+  "kraft singles",
+  "lil div",
+  "totes totes",
+  "foldable phone",
+  "media queries",
+  "notorious PNG"
 ];
