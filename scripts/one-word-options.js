@@ -29,6 +29,7 @@ const oneWordOptions = [
   "saepe",
   "cupiditate",
   "molestiae",
+  "magni",
   "nostrum",
   "fugiat",
   "error",
