@@ -57,11 +57,18 @@ const generateIndex = (array) => {
   return Math.floor(Math.random() * array.length);
 }
 
-// generates a random number and adds a period to the end of the ipsum if the condition is passed. Returns the updated array
+// generates a random number and adds punctuation to the end of the ipsum if the condition is passed. Returns the updated array
 const addPeriod = (ipsum, frequency) => {
+  const punctuation = [
+    ".",
+    "!",
+    "?",
+    ","
+  ];
   let roll = Math.floor(Math.random() * frequency);
   if (roll === 0) {
-    ipsum = ipsum.concat('.');
+    let index = Math.floor(Math.random() * punctuation.length);
+    ipsum = ipsum.concat(punctuation[index]);
   }
   return ipsum;
 }
