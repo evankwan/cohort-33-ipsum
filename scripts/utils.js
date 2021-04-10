@@ -73,7 +73,7 @@ const addPeriod = (ipsum, frequency) => {
   return ipsum;
 }
 
-// 
+// generates the full length ipsum 
 const getWordsFromArray = (wordsRequested, ipsum, startingSequence, possibleWordsArray, sentenceLength) => {
   // initialize the counter
   let wordsLeft = wordsRequested;
@@ -89,7 +89,7 @@ const getWordsFromArray = (wordsRequested, ipsum, startingSequence, possibleWord
     possibleWordsArray = initializePossibleWordsArray(wordsLeft, possibleWordsArray);
 
     // calculate the index of the word/phrase that we will use
-    let word = possibleWordsArray[generateIndex(possibleWordsArray)];
+    let word = possibleWordsArray[generateIndex(possibleWordsArray)].toLowerCase();
 
     // add the chosen option onto the ipsum
     ipsum = ipsum.concat(' ', word);
