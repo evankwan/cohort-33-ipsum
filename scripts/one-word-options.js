@@ -1,4 +1,5 @@
 const oneWordOptions = [
+  // latin words
   "maiores",
   "necessitatibus",
   "natus",
@@ -50,6 +51,7 @@ const oneWordOptions = [
   "alias",
   "doloremque",
   "animi",
+  // cohort 33
   "float",
   "Juno",
   "college",
@@ -93,6 +95,19 @@ const oneWordOptions = [
   "bearsGryllsery",
   "adda-boy...rder",
   "whitespace",
+  "masters",
+  "golf",
+  "kahoot",
+  "::before",
+  "::after",
+  "clown",
+  "brad",
+  "spencter",
+  "hover",
+  "mkdir",
+  "cmdr",
+  "iTerm2",
+  // names
   "Adrian",
   "Alex",
   "Ana",
@@ -112,7 +127,6 @@ const oneWordOptions = [
   "Joanna",
   "Jon",
   "Laura",
-  "Karim",
   "Maryam",
   "Meining",
   "Nicole",

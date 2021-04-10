@@ -4,5 +4,8 @@ const threeWordOptions = [
   "comment, like, subscribe",
   "mOdErN wEb DeSiGn",
   "take this PNG",
+  "big brent energy",
+  "agent of chaos",
+  "career services therapy",
   "learn to fly"
 ];

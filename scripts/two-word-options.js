@@ -18,5 +18,8 @@ const twoWordOptions = [
   "totes totes",
   "foldable phone",
   "media queries",
+  "personality quiz",
+  "Geoff's hair",
+  "1s -1",
   "notorious PNG"
 ];
