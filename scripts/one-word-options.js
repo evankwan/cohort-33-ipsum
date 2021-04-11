@@ -107,6 +107,9 @@ const oneWordOptions = [
   "mkdir",
   "cmdr",
   "iTerm2",
+  "tasty",
+  "arora",
+  "BBE",
   // names
   "Adrian",
   "Alex",
