@@ -6,10 +6,10 @@ const clearPossibleWordsArray = (array) => {
 
 // this method needs to be modified to account for the different length options the ipsum uses. These option arrays should be in a separate file and loaded into the page prior to utils.js
 const initializePossibleWordsArray = (wordsLeft, baseArray) => {
- baseArray = clearPossibleWordsArray(baseArray);
- if (wordsLeft <= 0) {
-   return [];
- }
+  baseArray = clearPossibleWordsArray(baseArray);
+  if (wordsLeft <= 0) {
+    return [];
+  }
   if (wordsLeft >= 1) {
     oneWordOptions.forEach(word => {
       baseArray.push(word);
