@@ -3,5 +3,6 @@ const fourWordOptions = [
   "brent doesn't like feet",
   "mo coding mo problems",
   "i am a developer",
-  "zach's freaky setup code"
+  "zach's freaky setup code",
+  "everybody gets a room"
 ];

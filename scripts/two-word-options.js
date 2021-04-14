@@ -22,5 +22,10 @@ const twoWordOptions = [
   "Geoff's hair",
   "1s -1",
   "hangry tummy",
-  "notorious PNG"
+  "notorious PNG",
+  "float garbage",
+  "git push",
+  "git init",
+  "flex: re-connect",
+  "free sweater"
 ];
