@@ -29,7 +29,6 @@ const oneWordOptions = [
   "earum",
   "saepe",
   "cupiditate",
-  "molestiae",
   "magni",
   "nostrum",
   "fugiat",
